@@ -1,5 +1,5 @@
 -- CreateEnum
-CREATE TYPE "ServiceStatus" AS ENUM ('PENDING', 'IN_PROGRESS', 'DONE');
+CREATE TYPE "ServiceStatus" AS ENUM ('pending', 'in_progress', 'done');
 
 -- CreateTable
 CREATE TABLE "customers" (

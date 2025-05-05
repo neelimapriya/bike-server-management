@@ -160,9 +160,9 @@ exports.Prisma.NullsOrder = {
   last: 'last'
 };
 exports.ServiceStatus = exports.$Enums.ServiceStatus = {
-  PENDING: 'PENDING',
-  IN_PROGRESS: 'IN_PROGRESS',
-  DONE: 'DONE'
+  pending: 'pending',
+  in_progress: 'in_progress',
+  done: 'done'
 };
 
 exports.Prisma.ModelName = {

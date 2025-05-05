@@ -54,7 +54,7 @@ model ServiceRecord {
 }
 
 enum ServiceStatus {
-  PENDING
-  IN_PROGRESS
-  DONE
+  pending
+  in_progress
+  done
 }

@@ -34,9 +34,9 @@ export type ServiceRecord = $Result.DefaultSelection<Prisma.$ServiceRecordPayloa
  */
 export namespace $Enums {
   export const ServiceStatus: {
-  PENDING: 'PENDING',
-  IN_PROGRESS: 'IN_PROGRESS',
-  DONE: 'DONE'
+  pending: 'pending',
+  in_progress: 'in_progress',
+  done: 'done'
 };
 
 export type ServiceStatus = (typeof ServiceStatus)[keyof typeof ServiceStatus]
