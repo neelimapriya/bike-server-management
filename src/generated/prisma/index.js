@@ -186,7 +186,7 @@ const config = {
     "db": {
       "url": {
         "fromEnvVar": "DATABASE_URL",
-        "value": "postgresql://postgres:123456@localhost:5432/bike-server?schema=public"
+        "value": "postgresql://bike_server_user:AqhccK3TXQQr0f0x8ylbD7V6jG9IFFQ7@dpg-d0c8aa24d50c73btrao0-a.oregon-postgres.render.com/bike_server"
       }
     }
   },

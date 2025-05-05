@@ -8,7 +8,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node-dev --respawn --transpile-only src/server.ts"
+    "build": "tsc",
+    "prod": "NODE_ENV=production node ./dist/server.ts",
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "postinstall": "prisma generate"
   },
   "devDependencies": {
     "@types/cookie-parser": "^1.4.8",

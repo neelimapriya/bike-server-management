@@ -2,7 +2,8 @@ import { StatusCodes } from "http-status-codes";
 import { IService } from "./serviceRecords.interface";
 import prisma from "../../utils/prisma";
 import { AppError } from "../../../config";
-import { ServiceRecord, ServiceStatus } from "../../../generated/prisma";
+import { ServiceRecord, ServiceStatus } from "@prisma/client";
+// import { ServiceRecord, ServiceStatus } from "../../../generated/prisma";
 
 const createService = async (payload: IService) => {
   // console.log(payload);
